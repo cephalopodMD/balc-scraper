@@ -3,7 +3,10 @@
 efficiently grabs and joins song, artist, and album metadata from spotify with batching and network retry for a given playlist and outputs as csv
 
 ## setup
+make sure you have node installed and ready to go in the command line
+
 > npm i
+> #note, this package only relys the requests package because it was just easier to adapt from spotify's example projects
 
 create an spotify developer account and app as described here https://developer.spotify.com/documentation/web-api/quick-start/
 
@@ -24,3 +27,4 @@ optionally you can pipe to a csv file if you actually want to use the thing
 - more efficient use of async/await (I probably didn't optimize completely)
 - batch album/artist queries (max is 20 and 50 at a time iirc)
 - join with other data outside spotify (lyrics, ratings, idk)
+- maybe remove the requests dependency
