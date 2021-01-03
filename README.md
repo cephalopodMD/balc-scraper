@@ -6,6 +6,7 @@ efficiently grabs and joins song, artist, and album metadata from spotify with b
 make sure you have node installed and ready to go in the command line
 
 > npm i
+>
 > #note, this package only relys the requests package because it was just easier to adapt from spotify's example projects
 
 create an spotify developer account and app as described here https://developer.spotify.com/documentation/web-api/quick-start/
