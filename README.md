@@ -21,6 +21,7 @@ optionally you can pipe to a csv file if you actually want to use the thing
 > node app.js > balc.csv
 
 ## future improvements for others to make
+- command line flags to choose your own playlist (or for bonus points, parse a link to a playlist)
 - host as a web service that generalizes to other playlists
 - more data (I'm not really using everything in the output)
 - find a better way to get genre
