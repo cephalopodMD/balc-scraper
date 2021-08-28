@@ -3,15 +3,12 @@
 efficiently grabs and joins song, artist, and album metadata from spotify with batching and network retry for a given playlist and outputs as csv
 
 ## setup
-make sure you have node installed and ready to go in the command line
-
-> npm i
+1. make sure you have node installed and ready to go in the command line
+2. run `npm i`  
  
-*note, this package only relies the requests package because it was just easier to adapt from spotify's example projects*
-
-create an spotify developer account and app as described here https://developer.spotify.com/documentation/web-api/quick-start/
-
-copy credentials_empty.js to a new file named credentials.js and replace CLIENT_ID and CLIENT_SECRET with your spotify app's credentials
+   *note, this package only relies the requests package because it was just easier to adapt from spotify's example projects*
+4. create an spotify developer account and app as described here https://developer.spotify.com/documentation/web-api/quick-start/
+5. copy credentials_empty.js to a new file named credentials.js and replace CLIENT_ID and CLIENT_SECRET with your spotify app's credentials
 
 ## run
 > node app.js
